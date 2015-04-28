@@ -39,4 +39,5 @@ Please view the [demo](http://www.chrisronline.com/angular-float-labels/index.ht
 
 Release Notes
 ---------
+- v0.0.9 - No longer uses placeholder attribute for label, now uses floatlabel attribute for label text
 - v0.0.1 - Basic input support
