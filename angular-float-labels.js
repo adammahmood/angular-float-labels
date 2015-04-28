@@ -2,11 +2,11 @@
   'use strict';
 
   angular.module('angular-float-labels', [])
-    .directive('placeholder', function($parse) {
+    .directive('floatlabel', function($parse) {
       return {
         restrict: 'A',
         link: function($scope, $element, $attrs) {
-          var label = $('<label class="angular-float-labels-label"></label').html($attrs.placeholder);
+          var label = $('<label class="angular-float-labels-label"></label>').html($attrs.placeholder);
           var element = $element;
           var input = $element;
           var parent = element.parent().addClass('angular-float-labels-wrapper');
