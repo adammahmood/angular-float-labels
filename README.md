@@ -2,12 +2,16 @@ angular-float-labels
 =====================
 
 AngularJS implementation of [float labels](http://bradfrostweb.com/blog/post/float-label-pattern/)
+Forked from [chrisronline/angular-float-labels](https://github.com/chrisronline/angular-float-labels)
+
+This fork allows you to specify seperate placeholder and label text. This also allows you to target only specific fields to have floating labels (rather than ALL input fields).
+
 
 Installation
 ---------
 Bower:
 
-    bower install angular-float-labels --save
+    bower install angular-float-labels-extended --save
 
 
 Usage
@@ -18,8 +22,8 @@ Usage
 ***
 **form.html**
 
-    <input type="text" placeholder="Enter some text"/>
-    <input type="email" placeholder="Enter your email"/>
+    <input type="text" floatlabel="First Name" placeholder="Enter some text"/>
+    <input type="email" floatlabel="Email Address" placeholder="Enter your email"/>
 ***
 
 Customize

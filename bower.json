@@ -1,11 +1,11 @@
 {
-  "name": "angular-float-labels",
-  "version": "0.0.7",
+  "name": "angular-float-labels-extended",
+  "version": "0.0.9",
   "main": [
     "angular-float-labels.js",
     "angular-float-labels.css"
   ],
-  "homepage": "https://github.com/chrisronline/angular-float-labels",
+  "homepage": "https://github.com/adammahmood/angular-float-labels",
   "license": "MIT",
   "dependencies": {
     "angular": ">=1",
