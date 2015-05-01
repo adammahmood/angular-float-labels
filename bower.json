@@ -1,6 +1,13 @@
 {
   "name": "angular-float-labels-extended",
-  "version": "0.0.9",
+  "description": "Floating labels directive for AngularJS",
+  "version": "0.1.0",
+  "keywords": [
+    "angular",
+    "floating",
+    "label",
+    "directive"
+  ],
   "main": [
     "angular-float-labels.js",
     "angular-float-labels.css"
